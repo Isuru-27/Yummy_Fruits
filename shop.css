@@ -1,0 +1,206 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    text-align: center;
+    background-color: lightpink;
+}
+
+img.mySlides{
+    width : 800px;
+    height: 350px;
+    opacity: 0.7;
+    
+}
+
+#h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.mySlides {
+    display:auto;
+}
+
+.collphoto{
+    max-width:500px;
+    display: block;
+    margin-left: 250px;
+    
+}
+
+nav {
+    background-color: lightpink;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+nav a {
+    color: rgb(2, 2, 2);
+    text-decoration: bold;
+    margin: 0 30px;
+
+}
+nav a:hover {
+    text-decoration: underline,bold;
+}
+
+#p1{
+    text-align: left;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#div1{
+    background-color: lightgreen;
+    height: 550px;
+}
+
+#pic1{
+    width: 400px;
+    height: 250px;
+    float: right;
+    padding-top: none;
+}
+
+#pic2{
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding-top: none;
+}
+
+#pic6{
+    width: 200px;
+    height: 125px;
+    float: middle;
+    padding-left: 140px;
+    padding-top: 140px; 
+}
+
+#link1{
+    margin-left: 30px;
+    
+}
+
+#div2{
+    background-color: rgb(196, 224, 94);
+    height: 1500px;
+}
+
+#p2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+}
+h2{
+    color: blueviolet;
+}
+
+#pic3{
+    width: 400px;
+    height: 250px;
+    float: right;
+    padding-top: none;
+}
+
+#pic4{
+    width: 400px;
+    height: 250px;
+    float: middle;
+    padding-left: 45px;
+}
+
+#pic5{
+    width: 400px;
+    height: 250px;
+    float: left;
+    padding-top: none;
+}
+
+
+table , th, td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th{
+    background-color: rgb(39, 247, 32);
+}
+
+td{
+    background-color: rgb(125, 230, 189);
+}
+
+#h3{
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+#u1{
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+#link2{
+    margin-left: 30px;
+    
+}
+
+#link3{
+    margin-left: 60px;
+    
+}
+
+#link4{
+    margin-left: 60px;
+    
+}
+
+#div3{
+    background-color: lightgreen;
+    height: 300px;
+}
+
+#link5{
+    margin-left: 20px;
+}
+
+#div4{
+    background-color: rgb(196, 224, 94);
+    height: 180px;
+}
+
+#p3{
+    padding-left: 30px;
+}
+
+footer {
+    background-color: #05af8a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+div.p9 {
+    width: 150px;
+    height: 40px;
+    background: rgb(51, 255, 0);
+    border: 3px solid black;
+    position: relative;
+    animation: mymove 15s infinite;
+    text-align: center;
+    padding: 28px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 1150px;}
+
+  }
+
+
+
